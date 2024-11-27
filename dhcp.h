@@ -1,39 +1,21 @@
 #ifndef DHCP_H
 #define DHCP_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/ipc.h>
-#include <sys/sem.h>
-#include <sys/shm.h>
-#include <sys/stat.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <sys/un.h>
-#include <arpa/inet.h>
-#include <netinet/in.h>
 
 #define FILENAME_SOCK "/tmp/Socket"
 #include <stdint.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/ipc.h>
 #include <sys/sem.h>
 #include <sys/shm.h>
 #include <sys/stat.h>
-#include <sys/types.h>
-#include <sys/socket.h>
+#include <sys/shm.h>
 #include <sys/un.h>
-#include <arpa/inet.h>
 #include <time.h>
 #include <netinet/in.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <netinet/in.h>
 #include <arpa/inet.h>
 #define OPTION_FIELD_SIZE 312
 #define FILENAME_SOCK "/tmp/Socket"
